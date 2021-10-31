@@ -1,0 +1,76 @@
+/* PC */
+@media (min-width:1024px){
+    
+}
+
+/* tablet */
+@media (min-width:740px) and (max-width:1023px){
+    
+}
+
+/* Mobile */
+@media (max-width: 739px){
+    #nav{
+        display:block;
+        width: 100%;
+    }
+
+    .search-btn{
+        display:none;
+    }
+
+    #mobile-menu{
+        display:flex;
+    }
+
+    #nav > li:first-child{
+        width:fit-content;
+    }
+
+    .sub-nav{
+        width: 100%;
+        
+        background-color: rgba(0, 0, 0, 0.8);
+        box-shadow: 0 4px 10px 0 rgb(0 0 0 / 20%), 0 4px 20px 0 rgb(0 0 0 / 19%);
+    }
+
+    .sub-nav-link{
+        color: #fff;
+    }
+
+    #content .member-list{
+        display:block;
+    }
+
+    .place-list{
+        display:block;
+    }
+
+    .place-item{
+        width: auto;
+    }
+
+    .place-btn{
+        width: 100%;
+    }
+
+    .contact-detail{
+        display:block;
+    }
+
+    .contact-enter-list{
+        display:block;
+    }
+
+    .contact-enter-list li:first-child{
+        margin:0;
+    }
+
+    .contact-enter-small{
+        width: 100%;
+    }
+
+    .contact-btn{
+        width: 100%;
+    }
+}
