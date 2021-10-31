@@ -150,12 +150,11 @@ html{
     color:#000 !important;
 }
 /* slider */
-#slider{
+#slider .slider-img{
     position:relative;
     width: 100%;
     margin-top:46px;
-    padding-top:50%;
-    background: url('/root/assets/img/la.jpg') top center / contain no-repeat
+    /* padding-top:50%; */
 }
 
 #slider .text-content{
