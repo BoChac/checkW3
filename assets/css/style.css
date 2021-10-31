@@ -155,7 +155,7 @@ html{
     width: 100%;
     margin-top:46px;
     padding-top:50%;
-    background: url('assets/img/la.jpg') top center / contain no-repeat
+    background: url('/root/assets/img/la.jpg') top center / contain no-repeat
 }
 
 #slider .text-content{
